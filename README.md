@@ -13,14 +13,14 @@ Youngflesh, C., Socolar, J., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance
 
 **Repository structure:**
 
-* `Data/` (ignored) - Datasets relevant for project
+* `Data/` (ignored) - Datas relevant for project
   * `arrival_master_<DATE>` - output from `5-extract-arr-dates.R` in companion repo
   * `environent`
     * `RAW` - raw green-up data
       * `MCD12Q1` - MCD12Q1 product data
       * `MCD12Q2` - MCD12Q2 product data
     * `processed` - processed green-up date
-  * `hex_grid_crop` - grided study area
+  * `hex_grid_crop` - study area
   
 * `Scripts/` - scripts to run analyses
   * `1-process-gr/`
