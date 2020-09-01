@@ -257,6 +257,10 @@ centers <- data.frame(species = rep(NA, length(sp_k2)),
                       nb_lng = NA,
                       mb_lat = NA,
                       mb_lng = NA,
+                      nb_lat_4326 = NA, 
+                      nb_lng_4326 = NA,
+                      mb_lat_4326 = NA,
+                      mb_lng_4326 = NA,
                       dist = NA)
 
 #reference key for species synonyms
