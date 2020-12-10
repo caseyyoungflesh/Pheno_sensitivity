@@ -334,7 +334,6 @@ for (i in 1:length(sp_k2))
 f_mrg2 <- dplyr::left_join(f_mrg, centers, by = 'species')
 
 #multicolinearity
-#covs <- select(f_mrg2, beta_gamma_mean, arr_IAR_mean, dist)
 covs <- select(f_mrg2, beta_gamma_mean, arr_IAR_mean, nb_lat_4326)
 colnames(covs) <- c('Inv mig speed', 'Mean arrival', 'Lat')
 #cor(covs)
@@ -370,7 +369,6 @@ DATA <- list(N = NROW(mrg_f6),
              st = st,
              end = end,
              PC1 = covs_pca$x[,1],
-             PC2 = covs_pca$x[,2],
              covs_pca = covs_pca,
              f_mrg2 = f_mrg2,
              u5 = u5,
