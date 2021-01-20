@@ -1,6 +1,6 @@
 # Youngflesh_et_al_XXXX_XXXX
 
-Code for Youngflesh et al. *Submitted.*  
+Code for Youngflesh et al. *In Review*.  
 
 
 This repository contains code to model bird arrival as a function of green-up and green-up as a function of time. The companion repository, which contains code to quantify bird arrival can be found [here](https://github.com/phenomismatch/Bird_Phenology).
@@ -8,7 +8,7 @@ This repository contains code to model bird arrival as a function of green-up an
 
 **Associated publication:**
 
-Youngflesh, C., Socolar, J., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance, R., Mayor, S.J., Miller, D.A.W., Tingley, M.W. *Submitted* Migratory strategy drives bird sensitivity to spring green-up
+Youngflesh, C., Socolar, J., Amaral, B.R., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance, R., Mayor, S.J., Miller, D.A.W., Tingley, M.W. *In Review* 		Migratory strategy drives species-level variation in bird sensitivity to green-up
 
 
 **Repository structure:**

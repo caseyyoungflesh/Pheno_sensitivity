@@ -143,6 +143,10 @@ for (i in 1:length(usp))
 #add scaled greenup to dataframe
 mrg_f5 <- dplyr::left_join(mrg_f4, gr_df, by = c('sp_idx', 'year', 'cell'))
 
+# #data for Shiny app
+# setwd("~/Google_Drive/R/pheno_trends/Data/For_Bruna/shiny_data/input")
+# saveRDS(mrg_f5, paste0('mrg_f5-', run_date, '.rds'))
+
 #Csp = for each species what the cnids are (must be in same order as lambdas)
 #species in rows, cells in columns - pad with -999
 Csp <- matrix(NA, nrow = length(usp), ncol = ncell)
@@ -264,18 +268,18 @@ centers <- data.frame(species = rep(NA, length(sp_k2)),
                       dist = NA)
 
 #reference key for species synonyms
-setwd(paste0(dir, 'Bird_Phenology/Data/BirdLife_range_maps/metadata/'))
+setwd(paste0(dir, '../Bird_Phenology/Data/BirdLife_range_maps/metadata/'))
 sp_key <- read.csv('species_filenames_key.csv')
 #get centroids
 for (i in 1:length(sp_k2))
 {
-  #i <- 12
+  #i <- 48
   print(paste('species ', i, ' of ', length(sp_k2)))
   
   args <- sp_k2[i]
   
   #change dir to shp files
-  setwd(paste0(dir, 'Bird_Phenology/Data/BirdLife_range_maps/shapefiles/'))
+  setwd(paste0(dir, '../Bird_Phenology/Data/BirdLife_range_maps/shapefiles/'))
   
   #filter by breeding/migration cells
   #match species name to shp file name
@@ -452,8 +456,7 @@ mu_xi = alpha_xi + beta_xi * PC1;
 xi = xi_raw * sigma_xi + mu_xi;
 
 // cholesky factor of covariance matrix (i.e., diagonal matrix of scale times cholesky factor of correlation matrix) multiplied by z score
-// cholesky factor transforms uncorrelated variables (z scores) into variables whose variances and covariances are given by Sigma (i.e., sigma[diag of scale] * Rho[corr matrix] * sigma) and are centered on 0
-// implies on pn ~ MVN(0, Sigma)
+// implies pn ~ MVN(0, Sigma)
 pn = (diag_pre_multiply(sigma_pn, L_Rho_pn) * z_pn)';
 // implies Rho_pn = L_Rho_pn * L_Rho_pn';
 Rho_pn = multiply_lower_tri_self_transpose(L_Rho_pn);
