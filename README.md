@@ -1,4 +1,4 @@
-# Youngflesh_et_al_XXXX_XXXX
+# Pheno_sensitivity
 
 Code for Youngflesh et al. *In Review*.  
 
@@ -6,14 +6,14 @@ Code for Youngflesh et al. *In Review*.
 This repository contains code to model bird arrival as a function of green-up and green-up as a function of time. The companion repository, which contains code to quantify bird arrival can be found [here](https://github.com/phenomismatch/Bird_Phenology).
 
 
-**Associated publication:**
+**Associated publications:**
 
-Youngflesh, C., Socolar, J., Amaral, B.R., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance, R., Mayor, S.J., Miller, D.A.W., Tingley, M.W. *In Review* 		Migratory strategy drives species-level variation in bird sensitivity to green-up
+Youngflesh, C., Socolar, J., Amaral, B.R., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance, R., Mayor, S.J., Miller, D.A.W., Tingley, M.W. *In Review* Migratory strategy drives species-level variation in bird sensitivity to vegetation green-up
 
 
 **Repository structure:**
 
-* `Data/` (ignored) - Datas relevant for project
+* `Data/` (ignored) - Data relevant for project
   * `arrival_master_<DATE>` - output from `5-extract-arr-dates.R` in companion repo
   * `environent`
     * `RAW` - raw green-up data
