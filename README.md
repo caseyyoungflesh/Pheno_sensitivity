@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/290607887.svg)](https://zenodo.org/badge/latestdoi/290607887)
+
 # Pheno_sensitivity
 
 Code for Youngflesh et al. *In Review*.  
@@ -9,6 +11,7 @@ This repository contains code to model bird arrival as a function of green-up an
 **Associated publications:**
 
 Youngflesh, C., Socolar, J., Amaral, B.R., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance, R., Mayor, S.J., Miller, D.A.W., Tingley, M.W. *In Review* Migratory strategy drives species-level variation in bird sensitivity to vegetation green-up
+
 
 
 **Repository structure:**
