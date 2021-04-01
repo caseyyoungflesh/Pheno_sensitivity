@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/290607887.svg)](https://zenodo.org/badge/latestdoi/290607887)
 
-Code for Youngflesh et al. *In Review*.  
+Code for Youngflesh et al. 2021. *Nature Ecology and Evolution*  
 
 
 This repository contains code to model bird arrival as a function of green-up and green-up as a function of time. The companion repository, which contains code to quantify bird arrival can be found [here](https://github.com/phenomismatch/Bird_Phenology).
@@ -10,7 +10,7 @@ This repository contains code to model bird arrival as a function of green-up an
 
 **Associated publications:**
 
-Youngflesh, C., Socolar, J., Amaral, B.R., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance, R., Mayor, S.J., Miller, D.A.W., Tingley, M.W. *In Review* Migratory strategy drives species-level variation in bird sensitivity to vegetation green-up
+Youngflesh, C., Socolar, J., Amaral, B.R., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance, R., Mayor, S.J., Miller, D.A.W., Tingley, M.W. 2021. Migratory strategy drives species-level variation in bird sensitivity to vegetation green-up. __*Nature Ecology and Evolution*__
 
 
 
