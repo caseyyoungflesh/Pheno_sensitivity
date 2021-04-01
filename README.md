@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/290607887.svg)](https://zenodo.org/badge/latestdoi/290607887)
 
-Code for Youngflesh et al. 2021. *Nature Ecology and Evolution*  
+Code for Youngflesh et al. 2021 *Nature Ecology and Evolution*  
 
 
 This repository contains code to model bird arrival as a function of green-up and green-up as a function of time. The companion repository, which contains code to quantify bird arrival can be found [here](https://github.com/phenomismatch/Bird_Phenology).
