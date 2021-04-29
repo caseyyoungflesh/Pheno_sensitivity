@@ -1,7 +1,7 @@
 # Pheno_sensitivity
 
 
-[![DOI](https://zenodo.org/badge/290607887.svg)](https://zenodo.org/badge/latestdoi/290607887)
+[![Zenodo DOI](https://zenodo.org/badge/290607887.svg)](https://zenodo.org/badge/latestdoi/290607887)
 
 
 Code for Youngflesh et al. 2021 *Nature Ecology and Evolution*
