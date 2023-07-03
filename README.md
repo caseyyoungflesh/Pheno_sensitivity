@@ -12,7 +12,7 @@ This repository contains code to model bird arrival as a function of green-up an
 
 **Associated publications:**
 
-Youngflesh, C., Socolar, J., Amaral, B.R., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance, R., Mayor, S.J., Miller, D.A.W., Tingley, M.W. 2021. [Migratory strategy drives species-level variation in bird sensitivity to vegetation green-up.](https://www.nature.com/articles/s41559-021-01442-y) __*Nature Ecology and Evolution*__
+Youngflesh, C., Socolar, J., Amaral, B.R., Arab, A., Guralnick, R.P., Hurlbert, A.H., LaFrance, R., Mayor, S.J., Miller, D.A.W., Tingley, M.W. 2021. [Migratory strategy drives species-level variation in bird sensitivity to vegetation green-up.](https://www.nature.com/articles/s41559-021-01442-y) __*Nature Ecology and Evolution*__ 5:987–994.
 
 
 
